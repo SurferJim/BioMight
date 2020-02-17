@@ -1,0 +1,317 @@
+
+HTML
+{
+    height: 98%;
+    width:98%;
+}
+
+BODY
+{ 
+    BACKGROUND-COLOR: white;
+    COLOR: #333366;
+    height: 100%
+}
+H1
+{
+    COLOR: #6666CC;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+H2
+{
+    COLOR: #6666CC;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+H3
+{
+    COLOR: #6666CC;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+
+H4
+{
+    COLOR: #6666CC;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+
+H5
+{
+    COLOR: #6666CC;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+H6
+{
+    COLOR: #6666CC;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+TH {
+ color: #6060cc
+}
+
+.propertyHeader { 
+	vertical-align: top;
+	background-color: #EFB877;
+	color: white;
+	font-size: 12pt;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.footer6 { 
+	vertical-align: top;
+	background-color: #EFB877;
+	color: white;
+	font-size: 12pt;
+}
+.footer1 {
+	background-color: #003399;
+	color: white
+	font-size: 12pt;
+}
+.footer2 {
+	background-color: #003399;
+	color: white;
+	font-size: 12pt;
+	font-style: italic;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: left;
+}
+.footer3 {
+	background-color: #d9baba;
+	color: black;
+	font-size: 12pt;
+}
+.footer2Title {
+	background-color: #003399;
+	color: white;
+	font-size: 12pt;
+	font-style: italic;
+	padding-left: 2px;
+	padding-right: 300px;
+}
+
+.divvyBar {
+	background-color:#b1a6d9 ;
+	color:#003399;
+	font-size: 12pt;
+	
+}
+
+#divyCenterPage {
+     width: 950px;
+     margin: 0 auto;
+}
+
+
+.scroller {
+	background-color: #d9baba;
+	color: #6666CC;
+	font-size: 12pt;
+	text-align:center;
+}
+
+
+.rowMenu {
+	background-color: #d2e1e0;	
+	
+}
+
+.rowHeader {
+	background-color: #d2e1e0;
+	text-align: right;
+}
+
+.rowHeaderTop {
+	background-color: #d2e1e0;
+	text-align: right;
+}
+
+
+.tableMenu {
+	width: 950px
+}
+
+.tableTopAbs {
+	position: relative;
+	vertical-align: top;
+	margin-left:auto; 
+    margin-right:auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color:  #003399;
+}
+
+.tableTop {
+
+	vertical-align: top;
+	margin-left:auto; 
+    margin-right:auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color:  #003399;
+}
+
+.tableTopHeader {
+	vertical-align: top;
+	margin-right:auto; 
+}
+
+
+.tableOutline {
+    width: 100%
+    height: 100%
+    BACKGROUND-IMAGE:url('../images/ShadedBackG.png');
+    BACKGROUND-REPEAT: no-repeat; 
+}
+
+.tableWelcome {
+    width: 850px;
+    margin-top: 25px;
+	margin-right: 25px;
+	margin-bottom: 150px;
+    border-width: 6px;
+    border-style: solid;
+    border-color:  #003399;
+}
+
+.tableHeader {
+    margin-top: 20px;
+}
+
+.tableDataWelcome { 
+	color: black;
+	font-size: 14pt;
+	font-style: italic;
+	font-family: "Times New Roman";
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+
+.tableDataImage {
+	padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+
+.tableDataCorporate { 
+	color: black;
+	font-size: 14pt;
+	font-family: "Times New Roman";
+	font-style: italic;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+
+.tableDataHeader { 
+	color: black;
+	font-size: 12pt;
+	padding-left: 10px;
+	padding-top: 40px;
+}
+
+
+.tableDataNotice { 
+	color: red;
+	font-size: 11pt;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-style: italic;
+}
+
+
+
+.table2 {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.tableAccountLine {
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+
+.pinky {
+   COLOR: #d9baba;
+   background-color: #d9baba;
+}
+
+.whiteSpace
+{
+   COLOR: white;
+   background-color: white;
+}
+
+
+.divContainer {
+	    border-width: 1px;
+    	border-style: solid;
+    	overflow: -moz-scrollbars-vertical; 
+		overflow-y: scroll;
+		position: relative;
+}
+
+.divLoginContainer {
+	    border-width: 1px;
+    	border-style: solid;
+    	overflow: -moz-scrollbars-vertical; 
+		overflow-y: hidden;
+		overflow-x: hidden;
+		position: relative;
+}
+
+
+
+.divPropertiesContainer {
+	    border-width: 1px;
+    	border-style: solid;
+    	overflow: -moz-scrollbars-vertical; 
+		overflow-y: scroll;
+		position: absolute;
+		top: 120px;
+		left: 685px;
+}
+
+.divMethodsContainer {
+	    border-width: 1px;
+    	border-style: solid;
+    	overflow: -moz-scrollbars-vertical; 
+		overflow-y: scroll;
+		position: absolute;
+		top: 125px;
+		left: 685px;	
+}
+
+.divBuildContainer {
+	    border-width: 1px;
+    	border-style: solid;
+    	overflow: -moz-scrollbars-vertical; 
+		overflow-y: scroll;
+		position: absolute;
+		top: 125px;
+		left: 685px;	
+}
+
+.bioBackGround
+{ 
+    BACKGROUND-COLOR: #333366  ;
+    COLOR:  #333366;
+    height: 100%
+}
+	
+}
