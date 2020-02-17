@@ -1,0 +1,4151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+ <X3D profile='Full' >
+<head>
+<meta name='BioMightImage' content=''/>
+<meta name='ExportTime' content='10:36:05'/>
+<meta name='ExportDate' content='2015/12/18'/>
+</head>
+<Scene>
+<WorldInfo
+title=''
+info='"BioMight Generated X3D"'/>
+
+
+<Transform DEF='bioViewPointGroup0'>
+  <Viewpoint DEF='bioViewPoint0'
+   containerField='children'
+   description='Moving Camera'
+  jump='true'
+  fieldOfView='  0.5'
+   position='0.0 0.5 4.0'
+   orientation='0.0 0.0 0.0 0.0'/>
+</Transform>
+
+
+<Transform DEF='bioBioMightComponentGroup0'
+  translation='0.0 1.0 0.0'
+  scale='0.35 0.35 0.35'
+  rotation='0.0 0.0 0.0 0.0'>
+
+<Transform DEF='TRANSFORM_CAPTOPCTRAdenovirus:00001' 
+translation='0.5   0.0   0.0'
+rotation='0 0 1 1.5707963267948966'
+scale='1 1 1'>
+
+<Shape DEF='SHAPE_Adenovirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='1.0  0.0  0.0'/>
+</Appearance>
+<Cylinder DEF='CapSpikeTop'
+containerField='geometry'
+radius='0.0425'
+height='0.425'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_CAPBASESPIKEAdenovirus:00001' 
+translation='0.5 0.0 0.0'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='1.0  0.0  0.0'/>
+</Appearance>
+<Sphere DEF='CapBaseSpike'
+containerField='geometry'
+radius='0.0825'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_CAPBASESPIKEAdenovirus:00001' 
+translation='0.75  0.0 0.0'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='1.0  0.0  0.0'/>
+</Appearance>
+<Sphere DEF='CapBaseSpike'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='0.0 0.0 0.5'
+rotation='1.0 0.0 0.0 -1.5707963267948966'
+scale='1 1 1'>
+
+<Shape DEF='SHAPE_Adenovirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='1  0.0  0.0'/>
+</Appearance>
+<Cylinder DEF='AdenovirusSpike'
+containerField='geometry'
+radius='0.0425'
+height='0.425'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='0.0 0.0 0.5'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='1  0.0  0.0'/>
+</Appearance>
+<Sphere DEF='AdenovirusSpikeBase'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='0.0 0.0 0.75'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='1  0.0  0.0'/>
+</Appearance>
+<Sphere DEF='AdenovirusSpikeTop'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='0.0 0.47552826 0.1545085'
+rotation='1.0 0.0 0.0 -2.827433388230814'
+scale='1 1 1'>
+
+<Shape DEF='SHAPE_Adenovirus:000011' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='1  0.0  0.0'/>
+</Appearance>
+<Cylinder DEF='AdenovirusSpike'
+containerField='geometry'
+radius='0.0425'
+height='0.425'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='0.0 0.47552826 0.1545085'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000011' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='1  0.0  0.0'/>
+</Appearance>
+<Sphere DEF='AdenovirusSpikeBase'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='0.0 0.71329239 0.23176274'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000011' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='1  0.0  0.0'/>
+</Appearance>
+<Sphere DEF='AdenovirusSpikeTop'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='0.0 0.29389263 -0.4045085'
+rotation='1.0 0.0 0.0 -4.084070449666731'
+scale='1 1 1'>
+
+<Shape DEF='SHAPE_Adenovirus:000012' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='1  0.0  0.0'/>
+</Appearance>
+<Cylinder DEF='AdenovirusSpike'
+containerField='geometry'
+radius='0.0425'
+height='0.425'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='0.0 0.29389263 -0.4045085'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000012' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='1  0.0  0.0'/>
+</Appearance>
+<Sphere DEF='AdenovirusSpikeBase'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='0.0 0.44083894 -0.60676274'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000012' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='1  0.0  0.0'/>
+</Appearance>
+<Sphere DEF='AdenovirusSpikeTop'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='0.0 -0.29389263 -0.4045085'
+rotation='1.0 0.0 0.0 -5.340707511102648'
+scale='1 1 1'>
+
+<Shape DEF='SHAPE_Adenovirus:000013' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='1  0.0  0.0'/>
+</Appearance>
+<Cylinder DEF='AdenovirusSpike'
+containerField='geometry'
+radius='0.0425'
+height='0.425'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='0.0 -0.29389263 -0.4045085'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000013' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='1  0.0  0.0'/>
+</Appearance>
+<Sphere DEF='AdenovirusSpikeBase'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='0.0 -0.44083894 -0.60676274'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000013' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='1  0.0  0.0'/>
+</Appearance>
+<Sphere DEF='AdenovirusSpikeTop'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='0.0 -0.47552826 0.1545085'
+rotation='1.0 0.0 0.0 -6.5973445725385655'
+scale='1 1 1'>
+
+<Shape DEF='SHAPE_Adenovirus:000014' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='1  0.0  0.0'/>
+</Appearance>
+<Cylinder DEF='AdenovirusSpike'
+containerField='geometry'
+radius='0.0425'
+height='0.425'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='0.0 -0.47552826 0.1545085'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000014' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='1  0.0  0.0'/>
+</Appearance>
+<Sphere DEF='AdenovirusSpikeBase'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='0.0 -0.71329239 0.23176274'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000014' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='1  0.0  0.0'/>
+</Appearance>
+<Sphere DEF='AdenovirusSpikeTop'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='AdenovirusCap'
+translation='0.0 0.0 0.0'
+scale='1.0 1.0 1.0'>
+<Shape DEF='AdenovirusCap'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0'
+diffuseColor='0 0.2 0.4'/>
+</Appearance>
+<IndexedFaceSet DEF='AdenoVirusCapIFS' 
+containerField='geometry' 
+creaseAngle='1.57'
+solid='false' 
+coordIndex='0, 2, 1, -1,
+0, 3, 2, -1,
+0, 4, 3, -1,
+0, 5, 4, -1,
+0, 1, 5, -1,
+'><Coordinate DEF='AdenoVirusCap_Coord' 
+containerField='coord' point='0.5,  0.0,  0.0, 
+0.0, 0.0, 0.5,
+  0.0,  0.47552826,  0.1545085,
+  0.0,  0.29389263,  -0.4045085,
+  0.0,  -0.29389263,  -0.4045085,
+  0.0,  -0.47552826,  0.1545085'/></IndexedFaceSet>
+</Shape>
+<TouchSensor DEF='StartEndothelium' 
+ description='AdenovirusCap'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_CAPBASECTRAdenovirus:00001' 
+translation='-1.0 0.0 0.0'
+rotation='0 0 1 1.5707963267948966'
+scale='1 1 1'>
+
+<Shape DEF='SHAPE_Adenovirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  0.80  0.40'/>
+</Appearance>
+<Cylinder DEF='CapBaseSpike'
+containerField='geometry'
+radius='0.0425'
+height='0.425'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_CAPBASESPIKEAdenovirus:00001' 
+translation='-1.0 0.0 0.0'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='0.0  0.80  0.40'/>
+</Appearance>
+<Sphere DEF='CapBaseSpike'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_CAPBASESPIKEAdenovirus:00001' 
+translation='-1.25 0.0 0.0'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='0.0  0.80  0.40'/>
+</Appearance>
+<Sphere DEF='CapBaseSpike'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='-0.5 -0.29389263 0.4045085'
+rotation='1.0 0.0 0.0 -1.0122909661567112'
+scale='1 1 1'>
+
+<Shape DEF='SHAPE_Adenovirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.0425'
+height='0.525'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='-0.5 -0.29389263 0.4045085'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Sphere DEF='GlycoProteinSpikeBase'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='-0.5 -0.43018233 0.61436403'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Sphere DEF='GlycoProteinSpikeTops'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='-0.5 0.29389262 0.4045085'
+rotation='1.0 0.0 0.0 -2.2689280275926285'
+scale='1 1 1'>
+
+<Shape DEF='SHAPE_Adenovirus:000011' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.0425'
+height='0.525'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='-0.5 0.29389262 0.4045085'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000011' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Sphere DEF='GlycoProteinSpikeBase'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='-0.5 0.45136127 0.59897663'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000011' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Sphere DEF='GlycoProteinSpikeTops'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='-0.5 0.47552826 -0.1545085'
+rotation='1.0 0.0 0.0 -3.5255650890285457'
+scale='1 1 1'>
+
+<Shape DEF='SHAPE_Adenovirus:000012' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.0425'
+height='0.525'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='-0.5 0.47552826 -0.1545085'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000012' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Sphere DEF='GlycoProteinSpikeBase'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='-0.5 0.70913893 -0.24417611'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000012' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Sphere DEF='GlycoProteinSpikeTops'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='-0.5 0.0 -0.5'
+rotation='1.0 0.0 0.0 -4.782202150464463'
+scale='1 1 1'>
+
+<Shape DEF='SHAPE_Adenovirus:000013' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.0425'
+height='0.525'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='-0.5 0.0 -0.5'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000013' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Sphere DEF='GlycoProteinSpikeBase'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='-0.5 -0.0130893 -0.74988577'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000013' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Sphere DEF='GlycoProteinSpikeTops'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='-0.5 -0.47552826 -0.1545085'
+rotation='1.0 0.0 0.0 -6.03883921190038'
+scale='1 1 1'>
+
+<Shape DEF='SHAPE_Adenovirus:000014' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.0425'
+height='0.525'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='-0.5 -0.47552826 -0.1545085'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000014' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Sphere DEF='GlycoProteinSpikeBase'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Adenovirus:00001' 
+translation='-0.5 -0.71722856 -0.21927879'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Adenovirus:000014' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Sphere DEF='GlycoProteinSpikeTops'
+containerField='geometry'
+radius='0.0625'/>
+</Shape>
+</Transform>
+<Transform DEF='AdenoBody'
+translation='0.0 0.0 0.0'
+scale='1.0 1.0 1.0'>
+<Shape DEF='AdenoBody'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0'
+diffuseColor='0 0.2 0.4'/>
+</Appearance>
+<IndexedFaceSet DEF='AdenoVirusCapIFS' 
+containerField='geometry' 
+creaseAngle='1.57'
+solid='false' 
+coordIndex='0, 1, 2, -1,
+0, 2, 3, -1,
+0, 3, 4, -1,
+0, 4, 5, -1,
+0, 5, 1, -1,
+'><Coordinate DEF='AdenoVirusCap_Coord' 
+containerField='coord' point='-1.0, 0.0, 0.0, 
+-0.5, -0.29389263, 0.4045085,
+  -0.5,  0.29389262,  0.4045085,
+  -0.5,  0.47552826,  -0.1545085,
+  -0.5,  0.0,  -0.5,
+  -0.5,  -0.47552826,  -0.1545085'/></IndexedFaceSet>
+</Shape>
+<TouchSensor DEF='StartEndothelium' 
+ description='AdenoBody'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='AdenoBody'
+translation='0.0 0.0 0.0'
+scale='1.0 1.0 1.0'>
+<Shape DEF='AdenoBody'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledBlack.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0'
+diffuseColor='0 0.2 0.4'/>
+</Appearance>
+<IndexedFaceSet DEF='AdenoVirusBodyIFS' 
+containerField='geometry' 
+creaseAngle='1.57'
+solid='false' 
+coordIndex='1,     7,     5,   -1 
+2,     8,     1,   -1 
+3,     9,     2,   -1 
+4,     10,    3,   -1,
+5,     11,    4,   -1,
+7,     1,     8,   -1,
+8,     2,     9,   -1,
+9,     3,    10,   -1,
+10,    4,    11,   -1,
+11,    5,     7,   -1,
+'><Coordinate DEF='AdenoVirusBody_Coord' 
+containerField='coord' point='0.5,  0.0,  0.0, 
+0.0, 0.0, 0.5,
+  0.0,  0.47552826,  0.1545085,
+  0.0,  0.29389263,  -0.4045085,
+  0.0,  -0.29389263,  -0.4045085,
+  0.0,  -0.47552826,  0.1545085 -1.0, 0.0, 0.0, 
+-0.5, -0.29389263, 0.4045085,
+  -0.5,  0.29389262,  0.4045085,
+  -0.5,  0.47552826,  -0.1545085,
+  -0.5,  0.0,  -0.5,
+  -0.5,  -0.47552826,  -0.1545085'/></IndexedFaceSet>
+</Shape>
+</Transform>
+<Viewpoint DEF='Viewpoint_Adenovirus'
+description='Viewpoint1'
+jump='true'
+fieldOfView='0.785'
+position='0.0 0.0 5.0'
+orientation='0 0 1 0'/>
+
+
+</Transform>
+
+
+<TimeSensor DEF='bioTimer0'
+ id='bioTimer0'
+ containerField='children'
+  cycleInterval='13'
+  loop='true'> 
+</TimeSensor> 
+
+<PositionInterpolator DEF='posBioAnimation0'
+key='0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90'
+keyValue='0.000000 1.000000 0.000000  0.000000 1.000000 0.000000   0.000000 1.000000 0.000000   0.000000 1.000000 0.000000   0.000000 1.000000 0.000000   0.000000 1.000000 0.000000   0.000000 1.000000 0.000000   0.000000 1.000000 0.000000   0.000000 1.000000 0.000000   0.000000 1.000000 0.000000 '
+> </PositionInterpolator>
+
+<ROUTE fromNode='bioTimer0' fromField='fraction_changed' toNode='posBioAnimation0' toField='set_fraction'>  </ROUTE>
+
+<ROUTE fromNode='posBioAnimation0' fromField='value_changed' toNode='bioBioMightComponentGroup0' toField='set_translation'> </ROUTE>
+
+<OrientationInterpolator DEF='rotBioAnimation0'
+key='0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90'
+keyValue='0.000000 1.000000 0.000000 0.000000  0.000000 1.000000 0.000000 26.000000   0.000000 1.000000 0.000000 52.000000   0.000000 1.000000 0.000000 78.000000   0.000000 1.000000 0.000000 104.000000   0.000000 1.000000 0.000000 130.000000   0.000000 1.000000 0.000000 156.000000   0.000000 1.000000 0.000000 182.000000   0.000000 1.000000 0.000000 208.000000   0.000000 1.000000 0.000000 234.000000 '
+> </OrientationInterpolator>
+
+<ROUTE fromNode='bioTimer0' fromField='fraction_changed' toNode='rotBioAnimation0' toField='set_fraction'/>
+
+<ROUTE fromNode='rotBioAnimation0' fromField='value_changed' toNode='bioBioMightComponentGroup0' toField='set_rotation'> </ROUTE>
+
+<PositionInterpolator DEF='sizBioAnimation0'
+key='0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90'
+keyValue='0.350000 0.350000 0.350000  0.350000 0.350000 0.350000   0.350000 0.350000 0.350000   0.350000 0.350000 0.350000   0.350000 0.350000 0.350000   0.350000 0.350000 0.350000   0.350000 0.350000 0.350000   0.350000 0.350000 0.350000   0.350000 0.350000 0.350000   0.350000 0.350000 0.350000 '
+> </PositionInterpolator>
+
+<ROUTE fromNode='bioTimer0' fromField='fraction_changed' toNode='sizBioAnimation0' toField='set_fraction'/>
+
+<ROUTE fromNode='sizBioAnimation0' fromField='value_changed' toNode='bioBioMightComponentGroup0' toField='set_scale'> </ROUTE>
+
+
+<Transform DEF='bioBioMightComponentGroup1'
+  translation='0.0 0.0 0.0'
+  scale='1.0 1.0 1.0'
+  rotation='0.0 0.0 0.0 0.0'>
+
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000010 0' 
+translation='0.125 0.21650635 0.0'
+rotation='0.0 0.0 1.0 -0.5235987755982988'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000010 1' 
+translation='0.10825318 0.21650635 0.0625'
+rotation='-0.5 0.0 0.8660254 -0.5235987755982988'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000010 2' 
+translation='0.0625 0.21650635 0.10825318'
+rotation='-0.8660254 0.0 0.5 -0.5235987755982988'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000010 3' 
+translation='0.0 0.21650635 0.125'
+rotation='-1.0 0.0 0.0 -0.5235987755982988'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000010 4' 
+translation='-0.0625 0.21650635 0.10825318'
+rotation='-0.8660254 0.0 -0.5 -0.5235987755982988'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000010 5' 
+translation='-0.10825318 0.21650635 0.0625'
+rotation='-0.5 0.0 -0.8660254 -0.5235987755982988'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000010 6' 
+translation='-0.125 0.21650635 0.0'
+rotation='0.0 0.0 -1.0 -0.5235987755982988'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000010 7' 
+translation='-0.10825318 0.21650635 -0.0625'
+rotation='0.5 0.0 -0.8660254 -0.5235987755982988'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000010 8' 
+translation='-0.0625 0.21650635 -0.10825318'
+rotation='0.8660254 0.0 -0.5 -0.5235987755982988'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000010 9' 
+translation='0.0 0.21650635 -0.125'
+rotation='1.0 0.0 0.0 -0.5235987755982988'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000010 10' 
+translation='0.0625 0.21650635 -0.10825318'
+rotation='0.8660254 0.0 0.5 -0.5235987755982988'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000010 11' 
+translation='0.10825318 0.21650635 -0.0625'
+rotation='0.5 0.0 0.8660254 -0.5235987755982988'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000011 0' 
+translation='0.21650635 0.125 0.0'
+rotation='0.0 0.0 1.0 -1.0471975511965976'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000011 1' 
+translation='0.1875 0.125 0.10825318'
+rotation='-0.5 0.0 0.8660254 -1.0471975511965976'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000011' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000011 2' 
+translation='0.10825318 0.125 0.1875'
+rotation='-0.8660254 0.0 0.5 -1.0471975511965976'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000012' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000011 3' 
+translation='0.0 0.125 0.21650635'
+rotation='-1.0 0.0 0.0 -1.0471975511965976'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000013' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000011 4' 
+translation='-0.10825318 0.125 0.1875'
+rotation='-0.8660254 0.0 -0.5 -1.0471975511965976'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000014' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000011 5' 
+translation='-0.1875 0.125 0.10825318'
+rotation='-0.5 0.0 -0.8660254 -1.0471975511965976'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000015' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000011 6' 
+translation='-0.21650635 0.125 0.0'
+rotation='0.0 0.0 -1.0 -1.0471975511965976'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000016' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000011 7' 
+translation='-0.1875 0.125 -0.10825318'
+rotation='0.5 0.0 -0.8660254 -1.0471975511965976'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000017' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000011 8' 
+translation='-0.10825318 0.125 -0.1875'
+rotation='0.8660254 0.0 -0.5 -1.0471975511965976'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000018' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000011 9' 
+translation='0.0 0.125 -0.21650635'
+rotation='1.0 0.0 0.0 -1.0471975511965976'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000019' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000011 10' 
+translation='0.10825318 0.125 -0.1875'
+rotation='0.8660254 0.0 0.5 -1.0471975511965976'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000110' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000011 11' 
+translation='0.1875 0.125 -0.10825318'
+rotation='0.5 0.0 0.8660254 -1.0471975511965976'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000111' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000012 0' 
+translation='0.25 0.0 0.0'
+rotation='0.0 0.0 1.0 -1.5707963267948966'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000012 1' 
+translation='0.21650635 0.0 0.125'
+rotation='-0.5 0.0 0.8660254 -1.5707963267948966'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000012' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000012 2' 
+translation='0.125 0.0 0.21650635'
+rotation='-0.8660254 0.0 0.5 -1.5707963267948966'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000014' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000012 3' 
+translation='0.0 0.0 0.25'
+rotation='-1.0 0.0 0.0 -1.5707963267948966'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000016' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000012 4' 
+translation='-0.125 0.0 0.21650635'
+rotation='-0.8660254 0.0 -0.5 -1.5707963267948966'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000018' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000012 5' 
+translation='-0.21650635 0.0 0.125'
+rotation='-0.5 0.0 -0.8660254 -1.5707963267948966'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000110' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000012 6' 
+translation='-0.25 0.0 0.0'
+rotation='0.0 0.0 -1.0 -1.5707963267948966'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000112' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000012 7' 
+translation='-0.21650635 0.0 -0.125'
+rotation='0.5 0.0 -0.8660254 -1.5707963267948966'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000114' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000012 8' 
+translation='-0.125 0.0 -0.21650635'
+rotation='0.8660254 0.0 -0.5 -1.5707963267948966'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000116' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000012 9' 
+translation='0.0 0.0 -0.25'
+rotation='1.0 0.0 0.0 -1.5707963267948966'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000118' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000012 10' 
+translation='0.125 0.0 -0.21650635'
+rotation='0.8660254 0.0 0.5 -1.5707963267948966'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000120' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000012 11' 
+translation='0.21650635 0.0 -0.125'
+rotation='0.5 0.0 0.8660254 -1.5707963267948966'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000122' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000013 0' 
+translation='0.21650635 -0.125 0.0'
+rotation='0.0 0.0 1.0 -2.0943951023931953'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000013 1' 
+translation='0.1875 -0.125 0.10825318'
+rotation='-0.5 0.0 0.8660254 -2.0943951023931953'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000013' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000013 2' 
+translation='0.10825318 -0.125 0.1875'
+rotation='-0.8660254 0.0 0.5 -2.0943951023931953'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000016' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000013 3' 
+translation='0.0 -0.125 0.21650635'
+rotation='-1.0 0.0 0.0 -2.0943951023931953'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000019' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000013 4' 
+translation='-0.10825318 -0.125 0.1875'
+rotation='-0.8660254 0.0 -0.5 -2.0943951023931953'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000112' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000013 5' 
+translation='-0.1875 -0.125 0.10825318'
+rotation='-0.5 0.0 -0.8660254 -2.0943951023931953'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000115' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000013 6' 
+translation='-0.21650635 -0.125 0.0'
+rotation='0.0 0.0 -1.0 -2.0943951023931953'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000118' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000013 7' 
+translation='-0.1875 -0.125 -0.10825318'
+rotation='0.5 0.0 -0.8660254 -2.0943951023931953'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000121' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000013 8' 
+translation='-0.10825318 -0.125 -0.1875'
+rotation='0.8660254 0.0 -0.5 -2.0943951023931953'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000124' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000013 9' 
+translation='0.0 -0.125 -0.21650635'
+rotation='1.0 0.0 0.0 -2.0943951023931953'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000127' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000013 10' 
+translation='0.10825318 -0.125 -0.1875'
+rotation='0.8660254 0.0 0.5 -2.0943951023931953'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000130' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000013 11' 
+translation='0.1875 -0.125 -0.10825318'
+rotation='0.5 0.0 0.8660254 -2.0943951023931953'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000133' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000014 0' 
+translation='0.125 -0.21650635 0.0'
+rotation='0.0 0.0 1.0 -2.6179938779914944'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000014 1' 
+translation='0.10825318 -0.21650635 0.0625'
+rotation='-0.5 0.0 0.8660254 -2.6179938779914944'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000014' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000014 2' 
+translation='0.0625 -0.21650635 0.10825318'
+rotation='-0.8660254 0.0 0.5 -2.6179938779914944'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000018' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000014 3' 
+translation='0.0 -0.21650635 0.125'
+rotation='-1.0 0.0 0.0 -2.6179938779914944'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000112' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000014 4' 
+translation='-0.0625 -0.21650635 0.10825318'
+rotation='-0.8660254 0.0 -0.5 -2.6179938779914944'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000116' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000014 5' 
+translation='-0.10825318 -0.21650635 0.0625'
+rotation='-0.5 0.0 -0.8660254 -2.6179938779914944'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000120' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000014 6' 
+translation='-0.125 -0.21650635 0.0'
+rotation='0.0 0.0 -1.0 -2.6179938779914944'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000124' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000014 7' 
+translation='-0.10825318 -0.21650635 -0.0625'
+rotation='0.5 0.0 -0.8660254 -2.6179938779914944'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000128' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000014 8' 
+translation='-0.0625 -0.21650635 -0.10825318'
+rotation='0.8660254 0.0 -0.5 -2.6179938779914944'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000132' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000014 9' 
+translation='0.0 -0.21650635 -0.125'
+rotation='1.0 0.0 0.0 -2.6179938779914944'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000136' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000014 10' 
+translation='0.0625 -0.21650635 -0.10825318'
+rotation='0.8660254 0.0 0.5 -2.6179938779914944'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000140' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000014 11' 
+translation='0.10825318 -0.21650635 -0.0625'
+rotation='0.5 0.0 0.8660254 -2.6179938779914944'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000144' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000015 0' 
+translation='0.0 -0.25 0.0'
+rotation='0.0 0.0 1.0 -3.141592653589793'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000015 1' 
+translation='0.0 -0.25 0.0'
+rotation='-0.5 0.0 0.8660254 -3.141592653589793'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000015' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000015 2' 
+translation='0.0 -0.25 0.0'
+rotation='-0.8660254 0.0 0.5 -3.141592653589793'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000110' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000015 3' 
+translation='0.0 -0.25 0.0'
+rotation='-1.0 0.0 0.0 -3.141592653589793'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000115' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000015 4' 
+translation='0.0 -0.25 0.0'
+rotation='-0.8660254 0.0 -0.5 -3.141592653589793'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000120' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000015 5' 
+translation='0.0 -0.25 0.0'
+rotation='-0.5 0.0 -0.8660254 -3.141592653589793'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000125' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000015 6' 
+translation='0.0 -0.25 0.0'
+rotation='0.0 0.0 -1.0 -3.141592653589793'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000130' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000015 7' 
+translation='0.0 -0.25 0.0'
+rotation='0.5 0.0 -0.8660254 -3.141592653589793'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000135' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000015 8' 
+translation='0.0 -0.25 0.0'
+rotation='0.8660254 0.0 -0.5 -3.141592653589793'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000140' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000015 9' 
+translation='0.0 -0.25 0.0'
+rotation='1.0 0.0 0.0 -3.141592653589793'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000145' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000015 10' 
+translation='0.0 -0.25 0.0'
+rotation='0.8660254 0.0 0.5 -3.141592653589793'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000150' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000015 11' 
+translation='0.0 -0.25 0.0'
+rotation='0.5 0.0 0.8660254 -3.141592653589793'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000155' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000016 0' 
+translation='-0.125 -0.21650635 0.0'
+rotation='0.0 0.0 1.0 -3.6651914291880923'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000016 1' 
+translation='-0.10825318 -0.21650635 -0.0625'
+rotation='-0.5 0.0 0.8660254 -3.6651914291880923'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000016' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000016 2' 
+translation='-0.0625 -0.21650635 -0.10825318'
+rotation='-0.8660254 0.0 0.5 -3.6651914291880923'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000112' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000016 3' 
+translation='0.0 -0.21650635 -0.125'
+rotation='-1.0 0.0 0.0 -3.6651914291880923'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000118' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000016 4' 
+translation='0.0625 -0.21650635 -0.10825318'
+rotation='-0.8660254 0.0 -0.5 -3.6651914291880923'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000124' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000016 5' 
+translation='0.10825318 -0.21650635 -0.0625'
+rotation='-0.5 0.0 -0.8660254 -3.6651914291880923'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000130' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000016 6' 
+translation='0.125 -0.21650635 0.0'
+rotation='0.0 0.0 -1.0 -3.6651914291880923'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000136' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000016 7' 
+translation='0.10825318 -0.21650635 0.0625'
+rotation='0.5 0.0 -0.8660254 -3.6651914291880923'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000142' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000016 8' 
+translation='0.0625 -0.21650635 0.10825318'
+rotation='0.8660254 0.0 -0.5 -3.6651914291880923'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000148' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000016 9' 
+translation='0.0 -0.21650635 0.125'
+rotation='1.0 0.0 0.0 -3.6651914291880923'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000154' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000016 10' 
+translation='-0.0625 -0.21650635 0.10825318'
+rotation='0.8660254 0.0 0.5 -3.6651914291880923'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000160' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000016 11' 
+translation='-0.10825318 -0.21650635 0.0625'
+rotation='0.5 0.0 0.8660254 -3.6651914291880923'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000166' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000017 0' 
+translation='-0.21650635 -0.125 0.0'
+rotation='0.0 0.0 1.0 -4.1887902047863905'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000017 1' 
+translation='-0.1875 -0.125 -0.10825318'
+rotation='-0.5 0.0 0.8660254 -4.1887902047863905'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000017' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000017 2' 
+translation='-0.10825318 -0.125 -0.1875'
+rotation='-0.8660254 0.0 0.5 -4.1887902047863905'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000114' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000017 3' 
+translation='0.0 -0.125 -0.21650635'
+rotation='-1.0 0.0 0.0 -4.1887902047863905'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000121' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000017 4' 
+translation='0.10825318 -0.125 -0.1875'
+rotation='-0.8660254 0.0 -0.5 -4.1887902047863905'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000128' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000017 5' 
+translation='0.1875 -0.125 -0.10825318'
+rotation='-0.5 0.0 -0.8660254 -4.1887902047863905'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000135' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000017 6' 
+translation='0.21650635 -0.125 0.0'
+rotation='0.0 0.0 -1.0 -4.1887902047863905'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000142' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000017 7' 
+translation='0.1875 -0.125 0.10825318'
+rotation='0.5 0.0 -0.8660254 -4.1887902047863905'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000149' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000017 8' 
+translation='0.10825318 -0.125 0.1875'
+rotation='0.8660254 0.0 -0.5 -4.1887902047863905'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000156' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000017 9' 
+translation='0.0 -0.125 0.21650635'
+rotation='1.0 0.0 0.0 -4.1887902047863905'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000163' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000017 10' 
+translation='-0.10825318 -0.125 0.1875'
+rotation='0.8660254 0.0 0.5 -4.1887902047863905'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000170' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000017 11' 
+translation='-0.1875 -0.125 0.10825318'
+rotation='0.5 0.0 0.8660254 -4.1887902047863905'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000177' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000018 0' 
+translation='-0.25 0.0 0.0'
+rotation='0.0 0.0 1.0 -4.71238898038469'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000018 1' 
+translation='-0.21650635 0.0 -0.125'
+rotation='-0.5 0.0 0.8660254 -4.71238898038469'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000018' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000018 2' 
+translation='-0.125 0.0 -0.21650635'
+rotation='-0.8660254 0.0 0.5 -4.71238898038469'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000116' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000018 3' 
+translation='0.0 0.0 -0.25'
+rotation='-1.0 0.0 0.0 -4.71238898038469'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000124' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000018 4' 
+translation='0.125 0.0 -0.21650635'
+rotation='-0.8660254 0.0 -0.5 -4.71238898038469'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000132' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000018 5' 
+translation='0.21650635 0.0 -0.125'
+rotation='-0.5 0.0 -0.8660254 -4.71238898038469'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000140' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000018 6' 
+translation='0.25 0.0 0.0'
+rotation='0.0 0.0 -1.0 -4.71238898038469'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000148' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000018 7' 
+translation='0.21650635 0.0 0.125'
+rotation='0.5 0.0 -0.8660254 -4.71238898038469'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000156' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000018 8' 
+translation='0.125 0.0 0.21650635'
+rotation='0.8660254 0.0 -0.5 -4.71238898038469'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000164' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000018 9' 
+translation='0.0 0.0 0.25'
+rotation='1.0 0.0 0.0 -4.71238898038469'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000172' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000018 10' 
+translation='-0.125 0.0 0.21650635'
+rotation='0.8660254 0.0 0.5 -4.71238898038469'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000180' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000018 11' 
+translation='-0.21650635 0.0 0.125'
+rotation='0.5 0.0 0.8660254 -4.71238898038469'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000188' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000019 0' 
+translation='-0.21650635 0.125 0.0'
+rotation='0.0 0.0 1.0 -5.235987755982989'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000019 1' 
+translation='-0.1875 0.125 -0.10825318'
+rotation='-0.5 0.0 0.8660254 -5.235987755982989'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000019' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000019 2' 
+translation='-0.10825318 0.125 -0.1875'
+rotation='-0.8660254 0.0 0.5 -5.235987755982989'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000118' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000019 3' 
+translation='0.0 0.125 -0.21650635'
+rotation='-1.0 0.0 0.0 -5.235987755982989'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000127' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000019 4' 
+translation='0.10825318 0.125 -0.1875'
+rotation='-0.8660254 0.0 -0.5 -5.235987755982989'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000136' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000019 5' 
+translation='0.1875 0.125 -0.10825318'
+rotation='-0.5 0.0 -0.8660254 -5.235987755982989'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000145' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000019 6' 
+translation='0.21650635 0.125 0.0'
+rotation='0.0 0.0 -1.0 -5.235987755982989'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000154' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000019 7' 
+translation='0.1875 0.125 0.10825318'
+rotation='0.5 0.0 -0.8660254 -5.235987755982989'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000163' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000019 8' 
+translation='0.10825318 0.125 0.1875'
+rotation='0.8660254 0.0 -0.5 -5.235987755982989'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000172' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000019 9' 
+translation='0.0 0.125 0.21650635'
+rotation='1.0 0.0 0.0 -5.235987755982989'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000181' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000019 10' 
+translation='-0.10825318 0.125 0.1875'
+rotation='0.8660254 0.0 0.5 -5.235987755982989'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000190' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:000019 11' 
+translation='-0.1875 0.125 0.10825318'
+rotation='0.5 0.0 0.8660254 -5.235987755982989'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000199' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000110 0' 
+translation='-0.125 0.21650635 0.0'
+rotation='0.0 0.0 1.0 -5.759586531581287'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000110 1' 
+translation='-0.10825318 0.21650635 -0.0625'
+rotation='-0.5 0.0 0.8660254 -5.759586531581287'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000110' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000110 2' 
+translation='-0.0625 0.21650635 -0.10825318'
+rotation='-0.8660254 0.0 0.5 -5.759586531581287'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000120' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000110 3' 
+translation='0.0 0.21650635 -0.125'
+rotation='-1.0 0.0 0.0 -5.759586531581287'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000130' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000110 4' 
+translation='0.0625 0.21650635 -0.10825318'
+rotation='-0.8660254 0.0 -0.5 -5.759586531581287'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000140' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000110 5' 
+translation='0.10825318 0.21650635 -0.0625'
+rotation='-0.5 0.0 -0.8660254 -5.759586531581287'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000150' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000110 6' 
+translation='0.125 0.21650635 0.0'
+rotation='0.0 0.0 -1.0 -5.759586531581287'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000160' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000110 7' 
+translation='0.10825318 0.21650635 0.0625'
+rotation='0.5 0.0 -0.8660254 -5.759586531581287'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000170' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000110 8' 
+translation='0.0625 0.21650635 0.10825318'
+rotation='0.8660254 0.0 -0.5 -5.759586531581287'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000180' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000110 9' 
+translation='0.0 0.21650635 0.125'
+rotation='1.0 0.0 0.0 -5.759586531581287'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000190' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000110 10' 
+translation='-0.0625 0.21650635 0.10825318'
+rotation='0.8660254 0.0 0.5 -5.759586531581287'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:00001100' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000110 11' 
+translation='-0.10825318 0.21650635 0.0625'
+rotation='0.5 0.0 0.8660254 -5.759586531581287'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:00001110' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000111 0' 
+translation='0.0 0.25 0.0'
+rotation='0.0 0.0 1.0 -6.283185307179586'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:000010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000111 1' 
+translation='0.0 0.25 0.0'
+rotation='-0.5 0.0 0.8660254 -6.283185307179586'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000111' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000111 2' 
+translation='0.0 0.25 0.0'
+rotation='-0.8660254 0.0 0.5 -6.283185307179586'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000122' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000111 3' 
+translation='0.0 0.25 0.0'
+rotation='-1.0 0.0 0.0 -6.283185307179586'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000133' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000111 4' 
+translation='0.0 0.25 0.0'
+rotation='-0.8660254 0.0 -0.5 -6.283185307179586'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000144' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000111 5' 
+translation='0.0 0.25 0.0'
+rotation='-0.5 0.0 -0.8660254 -6.283185307179586'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000155' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000111 6' 
+translation='0.0 0.25 0.0'
+rotation='0.0 0.0 -1.0 -6.283185307179586'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000166' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000111 7' 
+translation='0.0 0.25 0.0'
+rotation='0.5 0.0 -0.8660254 -6.283185307179586'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000177' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000111 8' 
+translation='0.0 0.25 0.0'
+rotation='0.8660254 0.0 -0.5 -6.283185307179586'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000188' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000111 9' 
+translation='0.0 0.25 0.0'
+rotation='1.0 0.0 0.0 -6.283185307179586'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:0000199' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000111 10' 
+translation='0.0 0.25 0.0'
+rotation='0.8660254 0.0 0.5 -6.283185307179586'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:00001110' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:0000111 11' 
+translation='0.0 0.25 0.0'
+rotation='0.5 0.0 0.8660254 -6.283185307179586'
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_InfluenzaAVirus:00001121' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  1.0  0.0'/>
+</Appearance>
+<Cylinder DEF='GlycoProteinBaseSpike'
+containerField='geometry'
+radius='0.00625'
+height='0.0125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_InfluenzaAVirus:00001' 
+translation='0.0 0.0 0.0'
+scale='1.0 1.0 1.0'>
+<Shape DEF='SHAPE_InfluenzaAVirus:00001' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/InfluenzaAVirus.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='0.0 0.0 1.0'/>
+</Appearance>
+<Sphere DEF='InfluenzaAVirusGeoSphere'
+containerField='geometry'
+radius='0.25'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_InfluenzaAVirus:00001' 
+ description='InfluenzaAVirus'
+ containerField='children'/> 
+</Transform>
+<Viewpoint DEF='Viewpoint_InfluenzaAVirus'
+description='Viewpoint1'
+jump='true'
+fieldOfView='0.785'
+position='0.0 0.0 2.0'
+orientation='0 0 1 0'/>
+
+
+</Transform>
+
+
+<TimeSensor DEF='bioTimer3'
+ id='bioTimer3'
+ containerField='children'
+  cycleInterval='15'
+  loop='true'> 
+</TimeSensor> 
+
+<PositionInterpolator DEF='posBioAnimation3'
+key='0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90'
+keyValue='0.000000 0.000000 0.000000  0.000000 0.000000 0.000000   0.000000 0.000000 0.000000   0.000000 0.000000 0.000000   0.000000 0.000000 0.000000   0.000000 0.000000 0.000000   0.000000 0.000000 0.000000   0.000000 0.000000 0.000000   0.000000 0.000000 0.000000   0.000000 0.000000 0.000000 '
+> </PositionInterpolator>
+
+<ROUTE fromNode='bioTimer3' fromField='fraction_changed' toNode='posBioAnimation3' toField='set_fraction'>  </ROUTE>
+
+<ROUTE fromNode='posBioAnimation3' fromField='value_changed' toNode='bioBioMightComponentGroup1' toField='set_translation'> </ROUTE>
+
+<OrientationInterpolator DEF='rotBioAnimation3'
+key='0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90'
+keyValue='0.000000 1.000000 0.000000 0.000000  0.000000 1.000000 0.000000 36.000000   0.000000 1.000000 0.000000 72.000000   0.000000 1.000000 0.000000 108.000000   0.000000 1.000000 0.000000 144.000000   0.000000 1.000000 0.000000 180.000000   0.000000 1.000000 0.000000 216.000000   0.000000 1.000000 0.000000 252.000000   0.000000 1.000000 0.000000 288.000000   0.000000 1.000000 0.000000 324.000000 '
+> </OrientationInterpolator>
+
+<ROUTE fromNode='bioTimer3' fromField='fraction_changed' toNode='rotBioAnimation3' toField='set_fraction'/>
+
+<ROUTE fromNode='rotBioAnimation3' fromField='value_changed' toNode='bioBioMightComponentGroup1' toField='set_rotation'> </ROUTE>
+
+<PositionInterpolator DEF='sizBioAnimation3'
+key='0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90'
+keyValue='1.000000 1.000000 1.000000  1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000 '
+> </PositionInterpolator>
+
+<ROUTE fromNode='bioTimer3' fromField='fraction_changed' toNode='sizBioAnimation3' toField='set_fraction'/>
+
+<ROUTE fromNode='sizBioAnimation3' fromField='value_changed' toNode='bioBioMightComponentGroup1' toField='set_scale'> </ROUTE>
+
+</Scene>
+</X3D>

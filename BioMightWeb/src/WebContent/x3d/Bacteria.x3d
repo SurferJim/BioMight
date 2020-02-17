@@ -1,0 +1,2444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+ <X3D profile='Full' >
+<head>
+<meta name='BioMightImage' content=''/>
+<meta name='ExportTime' content='17:21:08'/>
+<meta name='ExportDate' content='2015/12/17'/>
+</head>
+<Scene>
+<WorldInfo
+title=''
+info='"BioMight Generated X3D"'/>
+
+
+<Transform DEF='bioViewPointGroup0'>
+  <Viewpoint DEF='bioViewPoint0'
+   containerField='children'
+   description='Moving Camera'
+  jump='true'
+  fieldOfView='  0.5'
+   position='0.0 0.0 5.0'
+   orientation='0.0 0.0 0.0 0.0'/>
+</Transform>
+
+
+<Transform DEF='bioBioMightComponentGroup0'
+  translation='0.0 0.0 0.0'
+  scale='1.0 1.0 1.0'
+  rotation='0.0 1.0 0.0 1.57'>
+
+
+<Transform DEF='defCellMembrane:01500'
+translation='0.0 0.0 0.0'
+scale='2.0 0.75 0.9'>
+
+<Shape onmouseover="showComponent('Cell Membrane');"  DEF='shapeCellMembrane:01500'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture' url='../images/SpeckledIndianRed.png' /> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.4'
+diffuseColor='1.0 1.0 0.235'/>
+</Appearance>
+<Sphere DEF='CellMembrane:01500Sphere'
+containerField='geometry'
+radius='0.125'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00001' 
+translation='-0.16 0.0 -0.093'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00001' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00001' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00002' 
+translation='-0.13 0.0 -0.098'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00002' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00002' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00003' 
+translation='-0.1 0.0 -0.1'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00003' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00003' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00004' 
+translation='-0.07 0.0 -0.101'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00004' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00004' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00005' 
+translation='-0.04 0.0 -0.102'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00005' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.05'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00005' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00006' 
+translation='-0.01 0.0 -0.103'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00006' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00006' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00007' 
+translation='0.01 0.0 -0.103'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00007' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00007' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00008' 
+translation='0.04 0.0 -0.102'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00008' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00008' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00009' 
+translation='0.07 0.0 -0.101'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00009' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00009' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00010' 
+translation='0.11 0.0 -0.1'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00010' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00010' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00011' 
+translation='0.14 0.0 -0.099'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00011' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00011' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00012' 
+translation='0.17 0.0 -0.075'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00012' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.03'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00012' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00013' 
+translation='-0.16 0.0 0.093'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00013' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00013' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00014' 
+translation='-0.13 0.0 0.095'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00014' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00014' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00015' 
+translation='-0.1 0.0 0.098'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00015' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00015' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00016' 
+translation='-0.07 0.0 0.101'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00016' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00016' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00017' 
+translation='-0.04 0.0 0.103'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00017' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00017' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00018' 
+translation='-0.01 0.0 0.103'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00018' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00018' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00019' 
+translation='0.01 0.0 0.102'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00019' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.05'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00019' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00020' 
+translation='0.04 0.0 0.101'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00020' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00020' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00021' 
+translation='0.07 0.0 0.1'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00021' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00021' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00022' 
+translation='0.1 0.0 0.099'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00022' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.07'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00022' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00023' 
+translation='0.13 0.0 0.098'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00023' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00023' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00024' 
+translation='0.16 0.02 0.097'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00024' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00024' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00025' 
+translation='-0.15 0.0175 0.095'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00025' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00025' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00026' 
+translation='-0.12 0.02 0.098'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00026' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00026' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00027' 
+translation='-0.11 0.02 0.1'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00027' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00027' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00028' 
+translation='-0.08 0.02 0.101'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00028' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00028' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00029' 
+translation='-0.05 0.02 0.102'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00029' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00029' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00030' 
+translation='-0.02 0.02 0.103'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00030' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00030' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00031' 
+translation='0.01 0.02 0.103'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00031' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00031' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00032' 
+translation='0.04 0.015 0.102'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00032' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00032' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00033' 
+translation='0.07 0.02 0.101'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00033' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00033' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00034' 
+translation='0.1 0.0175 0.1'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00034' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00034' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00035' 
+translation='0.13 0.02 0.098'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00035' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00035' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00036' 
+translation='0.16 0.015 0.096'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00036' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00036' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00037' 
+translation='-0.16 0.04 -0.075'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.75'>
+<Shape DEF='SHAPE_Fimbria:00037' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.025'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00037' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00038' 
+translation='-0.13 0.03 -0.098'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00038' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00038' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00039' 
+translation='-0.1 0.02 -0.1'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00039' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00039' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00040' 
+translation='-0.07 0.02 -0.101'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00040' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00040' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00041' 
+translation='-0.04 0.015 -0.102'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00041' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00041' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00042' 
+translation='-0.01 0.015 -0.103'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00042' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00042' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00043' 
+translation='0.01 0.02 -0.103'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00043' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00043' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00044' 
+translation='0.04 0.0 -0.102'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00044' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00044' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00045' 
+translation='0.07 0.0 -0.101'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00045' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00045' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00046' 
+translation='0.1 0.0 -0.1'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00046' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00046' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00047' 
+translation='0.13 0.0 -0.099'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00047' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00047' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00048' 
+translation='0.16 0.0 -0.098'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.7'>
+<Shape DEF='SHAPE_Fimbria:00048' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00048' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00049' 
+translation='-0.16 0.0 -0.095'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00049' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00049' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00050' 
+translation='-0.13 0.0 0.095'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00050' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00050' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00051' 
+translation='-0.1 0.0 0.098'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.6'>
+<Shape DEF='SHAPE_Fimbria:00051' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00051' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00052' 
+translation='-0.06 0.0 0.101'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00052' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00052' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00053' 
+translation='-0.04 0.0 0.103'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00053' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00053' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00054' 
+translation='-0.01 0.0 0.103'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00054' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00054' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00055' 
+translation='0.01 0.0 0.101'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00055' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00055' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00056' 
+translation='0.03 0.0 0.099'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00056' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00056' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00057' 
+translation='0.06 0.0 0.096'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00057' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00057' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00058' 
+translation='0.09 0.0 0.095'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00058' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00058' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00059' 
+translation='0.12 0.0 0.092'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00059' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00059' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Fimbria:00060' 
+translation='0.15 0.0 0.09'
+scale='1.0 1.0 1.0'
+rotation='1.0 0.0 0.0 1.5'>
+<Shape DEF='SHAPE_Fimbria:00060' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FimbriaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.04'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Fimbria:00060' 
+ description='Fimbria'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='0.018 0.0 0.0'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00101' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='0.02 0.0 0.02'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00103' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='0.024 0.0 0.0'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00104' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='0.028 0.0 0.0'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00105' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='0.032 0.0 0.015'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00106' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='0.036 0.0 0.0'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00107' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='0.06 0.0 0.04'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00108' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='0.064 0.0 0.042'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00109' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='0.068 0.0 0.04'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00110' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='0.072 0.0 0.043'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00111' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='0.077 0.0 0.04'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00112' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='-0.1 0.0 -0.04'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00113' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='-0.104 0.0 -0.04'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00114' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='-0.108 0.0 -0.04'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00115' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='-0.113 0.0 -0.04'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00116' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='-0.107 0.0 -0.041'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00117' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='-0.1 0.0 -0.048'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00118' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='-0.104 0.0 -0.049'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00119' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='-0.109 0.0 -0.051'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00120' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='-0.115 0.0 -0.05'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00121' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='-0.1 0.0 -0.053'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00122' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='-0.106 0.0 -0.053'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00123' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='Ribosome'
+translation='-0.11 0.0 -0.056'
+scale='1.0 1.0 1.0'>
+
+<Shape DEF='Ribosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'
+ url='../images/SpeckledBlack.png'/>
+ <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+
+<Sphere onmouseover="showComponent('Ribosome');" DEF='Ribosome'
+containerField='geometry'
+radius='0.002'/>
+</Shape>
+
+<TouchSensor DEF='Ribosome:00124' 
+ description='Ribosome'
+ containerField='children'/> 
+</Transform>
+<Viewpoint DEF='Viewpoint_Ribosomes'
+description='Viewpoint_Ribosomes'
+jump='true'
+fieldOfView='0.785'
+position='0.0 0.0 3.0'
+orientation='0 0 1 0'/>
+<Transform DEF='Mesosome'
+translation='0.0 0.0 -0.087'
+scale='1.0 1.0 1.0'>
+<Shape DEF='Mesosome'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/Mesosome.jpg'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.45'
+diffuseColor='0.27 0.0 0.72'/>
+</Appearance>
+<Sphere DEF='MesosomeGeoSphere'
+containerField='geometry'
+radius='0.01'/>
+</Shape>
+
+<TouchSensor DEF='Mesosome:00001' 
+ description='Mesosome'
+ containerField='children'/> 
+</Transform>
+
+<Transform DEF='FlagellaGroup'
+  translation='-0.23 0.0 0.02'
+  scale='1.0 1.0 1.0'
+  rotation='0.0 0.0 1.0 30.0'>
+
+<Transform DEF='TRANSFORM_Flagellum:00001' 
+translation='0.0 0.0 0.0'
+scale='1.0 1.0 1.0'
+rotation='0.0 0.0 1.0 30.0'>
+<Shape DEF='SHAPE_Flagellum:00001' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/SpeckledGreen.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FlagellaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.075'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Flagellum:00001' 
+ description='Flagella'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Flagellum:00002' 
+translation='-0.05999999999999997 -0.02 -0.01'
+scale='1.0 1.0 1.0'
+rotation='0.0 0.75 1.0 30.0'>
+<Shape DEF='SHAPE_Flagellum:00002' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/SpeckledGreen.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FlagellaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.065'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Flagellum:00002' 
+ description='Flagella'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='TRANSFORM_Flagellum:00003' 
+translation='-0.11999999999999997 -0.015 -0.005000000000000001'
+scale='1.0 1.0 1.0'
+rotation='0.0 0.75 1.0 -30.0'>
+<Shape DEF='SHAPE_Flagellum:00003' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/SpeckledGreen.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.35'
+diffuseColor='1.0 1.0 1.0'/>
+</Appearance>
+<Cylinder DEF='FlagellaGeoSphere'
+containerField='geometry'
+radius='0.005'
+height='0.08'/>
+</Shape>
+
+<TouchSensor DEF='TSENSOR_Flagellum:00003' 
+ description='Flagella'
+ containerField='children'/> 
+</Transform>
+
+
+</Transform>
+
+
+<TimeSensor DEF='flagellaTimer'
+ containerField='children'
+  cycleInterval='0.6'
+  loop='true' 
+ startTime='0.0'/> 
+
+<Script DEF='flagellaScript'>
+<field name='flagellaScriptStartTime'  type='SFTime' accessType='outputOnly'/>
+<field name='flagellaScriptEndTime '  type='SFTime' accessType='outputOnly'/>
+</Script>
+
+<PositionInterpolator DEF='flagellaAnimation'
+key='0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90'
+keyValue='-0.230000 0.000000 0.020001  -0.230000 0.000000 0.020001   -0.230000 0.000000 0.020001   -0.230000 0.000000 0.020001   -0.230000 0.000000 0.020001   -0.230000 0.000000 0.020001   -0.230000 0.000000 0.020001   -0.230000 0.000000 0.020001   -0.230000 0.000000 0.020001   -0.230000 0.000000 0.020001 '
+/>
+
+<ROUTE fromNode='flagellaScript' fromField='flagellaScriptStartTime' toNode='flagellaTimer' toField='startTime'/>
+
+<ROUTE fromNode='flagellaTimer' fromField='fraction_changed' toNode='flagellaAnimation' toField='set_fraction'/>
+
+<ROUTE fromNode='flagellaAnimation' fromField='value_changed' toNode='FlagellaGroup' toField='set_translation'/>
+
+<OrientationInterpolator DEF='rotBioAnimation'
+key='0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90'
+keyValue='0.000000 1.000000 0.000000 0.000000  0.000000 1.000000 0.000000 0.050001   0.000000 1.000000 0.000000 0.100002   0.000000 1.000000 0.000000 0.150003   0.000000 1.000000 0.000000 0.200004   0.000000 1.000000 0.000000 0.250005   0.000000 1.000000 0.000000 0.300006   0.000000 1.000000 0.000000 0.350007   0.000000 1.000000 0.000000 0.400008   0.000000 1.000000 0.000000 0.450009 '
+/>
+
+<ROUTE fromNode='flagellaTimer' fromField='fraction_changed' toNode='rotBioAnimation' toField='set_fraction'/>
+
+<ROUTE fromNode='rotBioAnimation' fromField='value_changed' toNode='FlagellaGroup' toField='set_rotation'/>
+
+<PositionInterpolator DEF='sizBioAnimation'
+key='0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90'
+keyValue='1.000000 1.000000 1.000000  1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000 '
+/>
+
+<ROUTE fromNode='flagellaTimer' fromField='fraction_changed' toNode='sizBioAnimation' toField='set_fraction'/>
+
+<ROUTE fromNode='sizBioAnimation' fromField='value_changed' toNode='FlagellaGroup' toField='set_scale'/>
+
+<Viewpoint DEF='Viewpoint_BacillusAnthracis'
+description='Viewpoint1'
+jump='true'
+fieldOfView='0.785'
+position='0.0 0.0 4.0'
+orientation='0 0 1 0'/>
+
+
+</Transform>
+
+
+<TimeSensor DEF='bioTimer0'
+ id='bioTimer0'
+ containerField='children'
+  cycleInterval='10'
+  loop='true'> 
+</TimeSensor> 
+
+<PositionInterpolator DEF='posBioAnimation0'
+key='0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90'
+keyValue='0.000000 0.000000 0.000000  0.000000 0.000000 0.500000   0.000000 0.000000 1.000000   0.000000 0.000000 1.500000   0.000000 0.000000 2.000000   0.000000 0.000000 2.500000   0.000000 0.000000 3.000000   0.000000 0.000000 3.500000   0.000000 0.000000 4.000000   0.000000 0.000000 4.500000 '
+> </PositionInterpolator>
+
+<ROUTE fromNode='bioTimer0' fromField='fraction_changed' toNode='posBioAnimation0' toField='set_fraction'>  </ROUTE>
+
+<ROUTE fromNode='posBioAnimation0' fromField='value_changed' toNode='bioBioMightComponentGroup0' toField='set_translation'> </ROUTE>
+
+<OrientationInterpolator DEF='rotBioAnimation0'
+key='0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90'
+keyValue='0.000000 1.000000 0.000000 1.570001  0.000000 1.000000 0.000000 1.801001   0.000000 1.000000 0.000000 2.032001   0.000000 1.000000 0.000000 2.263001   0.000000 1.000000 0.000000 2.494001   0.000000 1.000000 0.000000 2.725001   0.000000 1.000000 0.000000 2.956001   0.000000 1.000000 0.000000 3.187001   0.000000 1.000000 0.000000 3.418001   0.000000 1.000000 0.000000 3.649001 '
+> </OrientationInterpolator>
+
+<ROUTE fromNode='bioTimer0' fromField='fraction_changed' toNode='rotBioAnimation0' toField='set_fraction'/>
+
+<ROUTE fromNode='rotBioAnimation0' fromField='value_changed' toNode='bioBioMightComponentGroup0' toField='set_rotation'> </ROUTE>
+
+<PositionInterpolator DEF='sizBioAnimation0'
+key='0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90'
+keyValue='1.000000 1.000000 1.000000  1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000 '
+> </PositionInterpolator>
+
+<ROUTE fromNode='bioTimer0' fromField='fraction_changed' toNode='sizBioAnimation0' toField='set_fraction'/>
+
+<ROUTE fromNode='sizBioAnimation0' fromField='value_changed' toNode='bioBioMightComponentGroup0' toField='set_scale'> </ROUTE>
+
+
+<TimeSensor DEF='bioTimer1'
+ id='bioTimer1'
+ containerField='children'
+  cycleInterval='5'
+  loop='true'> 
+</TimeSensor> 
+
+<PositionInterpolator DEF='posBioAnimation1'
+key='0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90'
+keyValue='0.000000 0.000000 4.000000  0.000000 0.000000 4.000000   0.000000 0.000000 4.000000   0.000000 0.000000 4.000000   0.000000 0.000000 4.000000   0.000000 0.000000 4.000000   0.000000 0.000000 4.000000   0.000000 0.000000 4.000000   0.000000 0.000000 4.000000   0.000000 0.000000 4.000000 '
+> </PositionInterpolator>
+
+<ROUTE fromNode='bioTimer1' fromField='fraction_changed' toNode='posBioAnimation1' toField='set_fraction'>  </ROUTE>
+
+<ROUTE fromNode='posBioAnimation1' fromField='value_changed' toNode='bioBioMightComponentGroup0' toField='set_translation'> </ROUTE>
+
+<OrientationInterpolator DEF='rotBioAnimation1'
+key='0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90'
+keyValue='0.000000 1.000000 0.000000 3.880000  0.000000 1.000000 0.000000 4.180000   0.000000 1.000000 0.000000 4.480000   0.000000 1.000000 0.000000 4.780000   0.000000 1.000000 0.000000 5.080000   0.000000 1.000000 0.000000 5.380000   0.000000 1.000000 0.000000 5.680000   0.000000 1.000000 0.000000 5.980000   0.000000 1.000000 0.000000 6.280000   0.000000 1.000000 0.000000 6.580000 '
+> </OrientationInterpolator>
+
+<ROUTE fromNode='bioTimer1' fromField='fraction_changed' toNode='rotBioAnimation1' toField='set_fraction'/>
+
+<ROUTE fromNode='rotBioAnimation1' fromField='value_changed' toNode='bioBioMightComponentGroup0' toField='set_rotation'> </ROUTE>
+
+<PositionInterpolator DEF='sizBioAnimation1'
+key='0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90'
+keyValue='1.000000 1.000000 1.000000  1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000 '
+> </PositionInterpolator>
+
+<ROUTE fromNode='bioTimer1' fromField='fraction_changed' toNode='sizBioAnimation1' toField='set_fraction'/>
+
+<ROUTE fromNode='sizBioAnimation1' fromField='value_changed' toNode='bioBioMightComponentGroup0' toField='set_scale'> </ROUTE>
+
+
+<TimeSensor DEF='bioTimer2'
+ id='bioTimer2'
+ containerField='children'
+  cycleInterval='5'
+  loop='true'> 
+</TimeSensor> 
+
+<PositionInterpolator DEF='posBioAnimation2'
+key='0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90'
+keyValue='0.000000 0.000000 5.000000  0.000000 0.000000 4.500000   0.000000 0.000000 4.000000   0.000000 0.000000 3.500000   0.000000 0.000000 3.000000   0.000000 0.000000 2.500000   0.000000 0.000000 2.000000   0.000000 0.000000 1.500000   0.000000 0.000000 1.000000   0.000000 0.000000 0.500000 '
+> </PositionInterpolator>
+
+<ROUTE fromNode='bioTimer2' fromField='fraction_changed' toNode='posBioAnimation2' toField='set_fraction'>  </ROUTE>
+
+<ROUTE fromNode='posBioAnimation2' fromField='value_changed' toNode='bioBioMightComponentGroup0' toField='set_translation'> </ROUTE>
+
+<OrientationInterpolator DEF='rotBioAnimation2'
+key='0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90'
+keyValue='0.000000 1.000000 0.000000 6.880000  0.000000 1.000000 0.000000 7.080001   0.000000 1.000000 0.000000 7.280002   0.000000 1.000000 0.000000 7.480003   0.000000 1.000000 0.000000 7.680004   0.000000 1.000000 0.000000 7.880005   0.000000 1.000000 0.000000 8.080006   0.000000 1.000000 0.000000 8.280007   0.000000 1.000000 0.000000 8.480008   0.000000 1.000000 0.000000 8.680009 '
+> </OrientationInterpolator>
+
+<ROUTE fromNode='bioTimer2' fromField='fraction_changed' toNode='rotBioAnimation2' toField='set_fraction'/>
+
+<ROUTE fromNode='rotBioAnimation2' fromField='value_changed' toNode='bioBioMightComponentGroup0' toField='set_rotation'> </ROUTE>
+
+<PositionInterpolator DEF='sizBioAnimation2'
+key='0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90'
+keyValue='1.000000 1.000000 1.000000  1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000   1.000000 1.000000 1.000000 '
+> </PositionInterpolator>
+
+<ROUTE fromNode='bioTimer2' fromField='fraction_changed' toNode='sizBioAnimation2' toField='set_fraction'/>
+
+<ROUTE fromNode='sizBioAnimation2' fromField='value_changed' toNode='bioBioMightComponentGroup0' toField='set_scale'> </ROUTE>
+
+</Scene>
+</X3D>

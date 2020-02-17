@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+ <X3D profile='Full' >
+<head>
+<meta name='BioMightImage' content='Body.jpg'/>
+<meta name='ExportTime' content='15:25:27'/>
+<meta name='ExportDate' content='2015/06/20'/>
+</head>
+<Scene>
+<WorldInfo
+title=''
+info='"BioMight Generated X3D"'/>
+
+
+<Transform DEF='bioViewPointGroup0'>
+  <Viewpoint DEF='bioViewPoint0'
+   containerField='children'
+   description='Moving Camera'
+  jump='true'
+  fieldOfView='  0.5'
+   position='0.0 0.0 20.0'
+   orientation='0.0 0.0 0.0 0.0'/>
+</Transform>
+
+
+<Transform DEF='bioBioMightComponentGroup0'
+  translation='0.0 2.0 0.0'
+  scale='2.5 2.5 2.5'
+  rotation='0.0 0.0 0.0 0.0'>
+
+<Transform DEF='BacteriophageCap'
+translation='0.0 0.0 0.0'
+scale='1.0 1.0 1.0'>
+<Shape DEF='BacteriophageCap'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/PowderBlue.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0'
+diffuseColor='0 0.2 0.4'/>
+</Appearance>
+<IndexedFaceSet DEF='AdenoVirusCapIFS' 
+containerField='geometry' 
+creaseAngle='1.57'
+solid='false' 
+coordIndex='0, 2, 1, -1,
+0, 3, 2, -1,
+0, 4, 3, -1,
+0, 5, 4, -1,
+0, 6, 5, -1,
+0, 1, 6, -1,
+'><Coordinate DEF='AdenoVirusCap_Coord' 
+containerField='coord' point='0.0, 0.5, 0.0, 
+0.5, 0.0, 0.0,
+  0.25,  0.0,  0.4330127,
+  -0.25,  0.0,  0.4330127,
+  -0.5,  0.0,  0.0,
+  -0.25,  0.0,  -0.4330127,
+  0.25,  0.0,  -0.4330127'/></IndexedFaceSet>
+</Shape>
+<TouchSensor DEF='StartEndothelium' 
+ description='BacteriophageCap'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='AdenoBody'
+translation='0.0 0.0 0.0'
+scale='1.0 1.0 1.0'>
+<Shape DEF='AdenoBody'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/PowderBlue.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0'
+diffuseColor='0 0.2 0.4'/>
+</Appearance>
+<IndexedFaceSet DEF='AdenoVirusCapIFS' 
+containerField='geometry' 
+creaseAngle='1.57'
+solid='false' 
+coordIndex='0, 1, 2, -1,
+0, 2, 3, -1,
+0, 3, 4, -1,
+0, 4, 5, -1,
+0, 5, 6, -1,
+0, 6, 1, -1,
+'><Coordinate DEF='AdenoVirusCap_Coord' 
+containerField='coord' point='0.0, -1.0, 0.0, 
+0.5, -0.5, 0.0,
+  0.25,  -0.5,  0.4330127,
+  -0.25,  -0.5,  0.4330127,
+  -0.5,  -0.5,  0.0,
+  -0.25,  -0.5,  -0.4330127,
+  0.25,  -0.5,  -0.4330127'/></IndexedFaceSet>
+</Shape>
+<TouchSensor DEF='StartEndothelium' 
+ description='AdenoBody'
+ containerField='children'/> 
+</Transform>
+<Transform DEF='AdenoBody'
+translation='0.0 0.0 0.0'
+scale='1.0 1.0 1.0'>
+<Shape DEF='AdenoBody'
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/PowderBlue.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0'
+diffuseColor='0 0.2 0.4'/>
+</Appearance>
+<IndexedFaceSet DEF='AdenoVirusBodyIFS' 
+containerField='geometry' 
+creaseAngle='1.57'
+solid='false' 
+coordIndex='1,       2,     9,      8,   -1,  
+2,       3,     10,     9,   -1,  
+3,       4,     11,    10,   -1,  
+4,       5,     12,    11,   -1,  
+5,       6,     13,    12,   -1, 
+6,       1,     8,     13,   -1, 
+'><Coordinate DEF='AdenoVirusBody_Coord' 
+containerField='coord' point='0.0, 0.5, 0.0, 
+0.5, 0.0, 0.0,
+  0.25,  0.0,  0.4330127,
+  -0.25,  0.0,  0.4330127,
+  -0.5,  0.0,  0.0,
+  -0.25,  0.0,  -0.4330127,
+  0.25,  0.0,  -0.4330127 0.0, -1.0, 0.0, 
+0.5, -0.5, 0.0,
+  0.25,  -0.5,  0.4330127,
+  -0.25,  -0.5,  0.4330127,
+  -0.5,  -0.5,  0.0,
+  -0.25,  -0.5,  -0.4330127,
+  0.25,  -0.5,  -0.4330127'/></IndexedFaceSet>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_CAPBASECTRBacteriophage:00001' 
+translation='0.0 -1.5 0.0'
+rotation='0 0 1 0'>
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_Bacteriophage:00001101' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/SpeckledGreen.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  0.80  0.40'/>
+</Appearance>
+<Cylinder DEF='PhageNeck'
+containerField='geometry'
+radius='0.1'
+height='1.25'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_CAPBASECTRBacteriophage:000010' 
+translation='0.35 -1.75 0.0'
+rotation='0.0 0.0 1.0 -0.5235987755982988'>
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_Bacteriophage:00001' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/SpeckledGreen.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  0.80  0.40'/>
+</Appearance>
+<Cylinder DEF='PhageNeck'
+containerField='geometry'
+radius='0.05'
+height='1.0'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_CAPBASECTRBacteriophage:000011' 
+translation='0.175 -1.75 0.30310889'
+rotation='-0.8660254 0.0 0.5 -0.5235987755982988'>
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_Bacteriophage:00001' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/SpeckledGreen.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  0.80  0.40'/>
+</Appearance>
+<Cylinder DEF='PhageNeck'
+containerField='geometry'
+radius='0.05'
+height='1.0'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_CAPBASECTRBacteriophage:000012' 
+translation='-0.175 -1.75 0.30310889'
+rotation='-0.8660254 0.0 -0.5 -0.5235987755982988'>
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_Bacteriophage:00001' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/SpeckledGreen.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  0.80  0.40'/>
+</Appearance>
+<Cylinder DEF='PhageNeck'
+containerField='geometry'
+radius='0.05'
+height='1.0'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_CAPBASECTRBacteriophage:000013' 
+translation='-0.35 -1.75 0.0'
+rotation='0.0 0.0 -1.0 -0.5235987755982988'>
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_Bacteriophage:00001' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/SpeckledGreen.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  0.80  0.40'/>
+</Appearance>
+<Cylinder DEF='PhageNeck'
+containerField='geometry'
+radius='0.05'
+height='1.0'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_CAPBASECTRBacteriophage:000014' 
+translation='-0.175 -1.75 -0.30310889'
+rotation='0.8660254 0.0 -0.5 -0.5235987755982988'>
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_Bacteriophage:00001' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/SpeckledGreen.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  0.80  0.40'/>
+</Appearance>
+<Cylinder DEF='PhageNeck'
+containerField='geometry'
+radius='0.05'
+height='1.0'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_CAPBASECTRBacteriophage:000015' 
+translation='0.175 -1.75 -0.30310889'
+rotation='0.86602541 0.0 0.5 -0.5235987755982988'>
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_Bacteriophage:00001' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/SpeckledGreen.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  0.80  0.40'/>
+</Appearance>
+<Cylinder DEF='PhageNeck'
+containerField='geometry'
+radius='0.05'
+height='1.0'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_STARTSPHERE'
+translation='0.625 -1.275 0.0'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Bacteriophage:00001' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/SpeckledGreen.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='0.1 0.8 0.1'/>
+</Appearance>
+<Sphere DEF='StartSphere'
+containerField='geometry'
+radius='0.05'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_CAPBASECTRBacteriophage:000010' 
+translation='0.95 -1.625 0.0'
+rotation='0.0 0.0 1.0 -2.356194490192345'>
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_Bacteriophage:00001' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/SpeckledGreen.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  0.80  0.40'/>
+</Appearance>
+<Cylinder DEF='PhageNeck'
+containerField='geometry'
+radius='0.05'
+height='1.0'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_STARTSPHERE'
+translation='0.3125 -1.275 0.54126588'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Bacteriophage:00001' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/SpeckledGreen.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='0.1 0.8 0.1'/>
+</Appearance>
+<Sphere DEF='StartSphere'
+containerField='geometry'
+radius='0.05'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_CAPBASECTRBacteriophage:000011' 
+translation='0.475 -1.625 0.82272413'
+rotation='-0.8660254 0.0 0.5 -2.356194490192345'>
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_Bacteriophage:00001' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/SpeckledGreen.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  0.80  0.40'/>
+</Appearance>
+<Cylinder DEF='PhageNeck'
+containerField='geometry'
+radius='0.05'
+height='1.0'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_STARTSPHERE'
+translation='-0.3125 -1.275 0.54126588'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Bacteriophage:00001' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/SpeckledGreen.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='0.1 0.8 0.1'/>
+</Appearance>
+<Sphere DEF='StartSphere'
+containerField='geometry'
+radius='0.05'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_CAPBASECTRBacteriophage:000012' 
+translation='-0.475 -1.625 0.82272413'
+rotation='-0.8660254 0.0 -0.5 -2.356194490192345'>
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_Bacteriophage:00001' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/SpeckledGreen.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  0.80  0.40'/>
+</Appearance>
+<Cylinder DEF='PhageNeck'
+containerField='geometry'
+radius='0.05'
+height='1.0'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_STARTSPHERE'
+translation='-0.625 -1.275 0.0'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Bacteriophage:00001' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/SpeckledGreen.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='0.1 0.8 0.1'/>
+</Appearance>
+<Sphere DEF='StartSphere'
+containerField='geometry'
+radius='0.05'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_CAPBASECTRBacteriophage:000013' 
+translation='-0.95 -1.625 0.0'
+rotation='0.0 0.0 -1.0 -2.356194490192345'>
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_Bacteriophage:00001' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/SpeckledGreen.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  0.80  0.40'/>
+</Appearance>
+<Cylinder DEF='PhageNeck'
+containerField='geometry'
+radius='0.05'
+height='1.0'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_STARTSPHERE'
+translation='-0.3125 -1.275 -0.54126588'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Bacteriophage:00001' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/SpeckledGreen.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='0.1 0.8 0.1'/>
+</Appearance>
+<Sphere DEF='StartSphere'
+containerField='geometry'
+radius='0.05'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_CAPBASECTRBacteriophage:000014' 
+translation='-0.475 -1.625 -0.82272413'
+rotation='0.8660254 0.0 -0.5 -2.356194490192345'>
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_Bacteriophage:00001' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/SpeckledGreen.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  0.80  0.40'/>
+</Appearance>
+<Cylinder DEF='PhageNeck'
+containerField='geometry'
+radius='0.05'
+height='1.0'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_STARTSPHERE'
+translation='0.3125 -1.275 -0.54126588'
+scale='1 1 1'>
+<Shape DEF='SHAPE_Bacteriophage:00001' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/SpeckledGreen.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.0'
+diffuseColor='0.1 0.8 0.1'/>
+</Appearance>
+<Sphere DEF='StartSphere'
+containerField='geometry'
+radius='0.05'/>
+</Shape>
+</Transform>
+<Transform DEF='TRANSFORM_CAPBASECTRBacteriophage:000015' 
+translation='0.475 -1.625 -0.82272413'
+rotation='0.86602541 0.0 0.5 -2.356194490192345'>
+
+scale='1 1 1'>
+<Shape DEF='SHAPE_Bacteriophage:00001' 
+ containerField='children'>
+ <Appearance
+  containerField='appearance'>
+ <ImageTexture containerField='texture'  url='../images/SpeckledGreen.png'/> <Material DEF='Rust'
+containerField='material'
+ambientIntensity='0.0'
+shininess='0.0'
+transparency='0.25'
+diffuseColor='0.0  0.80  0.40'/>
+</Appearance>
+<Cylinder DEF='PhageNeck'
+containerField='geometry'
+radius='0.05'
+height='1.0'/>
+</Shape>
+</Transform>
+<Viewpoint DEF='Viewpoint_Bacteriophage'
+description='Viewpoint1'
+jump='true'
+fieldOfView='0.785'
+position='0.0 0.0 10.0'
+orientation='0 0 1 0'/>
+
+
+</Transform>
+
+
+<TimeSensor DEF='bioTimer0'
+ id='bioTimer0'
+ containerField='children'
+  cycleInterval='10'
+  loop='true'> 
+</TimeSensor> 
+
+<PositionInterpolator DEF='posBioAnimation0'
+key='0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90'
+keyValue='0.000000 2.000000 0.000000  0.000000 2.000000 0.000000   0.000000 2.000000 0.000000   0.000000 2.000000 0.000000   0.000000 2.000000 0.000000   0.000000 2.000000 0.000000   0.000000 2.000000 0.000000   0.000000 2.000000 0.000000   0.000000 2.000000 0.000000   0.000000 2.000000 0.000000 '
+> </PositionInterpolator>
+
+<ROUTE fromNode='bioTimer0' fromField='fraction_changed' toNode='posBioAnimation0' toField='set_fraction'>  </ROUTE>
+
+<ROUTE fromNode='posBioAnimation0' fromField='value_changed' toNode='bioBioMightComponentGroup0' toField='set_translation'> </ROUTE>
+
+<OrientationInterpolator DEF='rotBioAnimation0'
+key='0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90'
+keyValue='0.000000 1.000000 0.000000 0.000000  0.000000 1.000000 0.000000 1.500000   0.000000 1.000000 0.000000 3.000000   0.000000 1.000000 0.000000 4.500000   0.000000 1.000000 0.000000 6.000000   0.000000 1.000000 0.000000 7.500000   0.000000 1.000000 0.000000 9.000000   0.000000 1.000000 0.000000 10.500000   0.000000 1.000000 0.000000 12.000000   0.000000 1.000000 0.000000 13.500000 '
+> </OrientationInterpolator>
+
+<ROUTE fromNode='bioTimer0' fromField='fraction_changed' toNode='rotBioAnimation0' toField='set_fraction'/>
+
+<ROUTE fromNode='rotBioAnimation0' fromField='value_changed' toNode='bioBioMightComponentGroup0' toField='set_rotation'> </ROUTE>
+
+<PositionInterpolator DEF='sizBioAnimation0'
+key='0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90'
+keyValue='2.500000 2.500000 2.500000  2.500000 2.500000 2.500000   2.500000 2.500000 2.500000   2.500000 2.500000 2.500000   2.500000 2.500000 2.500000   2.500000 2.500000 2.500000   2.500000 2.500000 2.500000   2.500000 2.500000 2.500000   2.500000 2.500000 2.500000   2.500000 2.500000 2.500000 '
+> </PositionInterpolator>
+
+<ROUTE fromNode='bioTimer0' fromField='fraction_changed' toNode='sizBioAnimation0' toField='set_fraction'/>
+
+<ROUTE fromNode='sizBioAnimation0' fromField='value_changed' toNode='bioBioMightComponentGroup0' toField='set_scale'> </ROUTE>
+
+</Scene>
+</X3D>
